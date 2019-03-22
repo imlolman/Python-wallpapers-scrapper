@@ -18,7 +18,6 @@ soup = BS(f.getData(mainLink), 'html.parser')
 # trying to get the last page
 firstpage = 1
 lastpage = int(f.getFileName(soup.findAll("a", {"class":"pager__link"})[2]['href']).replace("page",""))
-lastpage = 3
 
 # looping through all the page to download wallpapers with multithreading
 threads = []
