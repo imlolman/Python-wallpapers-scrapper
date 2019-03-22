@@ -22,9 +22,10 @@ lastpage = 3
 
 # looping through all the page to download wallpapers with multithreading
 threads = []
+print("Initiating Downloading..\n")
 for i in range(firstpage,lastpage+1):
-  print("Starting downloading for page "+str(i))
-  download_thread = threading.Thread(target=f.downloadAllFromPageLink, args=(mainLink+"/page"+str(i),resolution,foldername,))
+  # print("Starting downloading for page "+str(i))
+  download_thread = threading.Thread(target=f.downloadAllFromPageLink, args=(mainLink+"/page"+str(i),resolution,foldername,lastpage*15,))
   download_thread.start()
   threads.append(download_thread)
   if(len(threads)>1):
