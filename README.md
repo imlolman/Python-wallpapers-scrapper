@@ -1,6 +1,10 @@
-<h2> About  </h2>
+## About
 This is a Python Multithread Scrapper for Wallpapers on <a href="WallpapersCraft.com"> WallpapersCraft.com</a>.<br>
-<b>Scrap Wallpaper for a Particular Category on a Server, Zip it, Download it.</b>
+__Scrap Wallpaper for a Particular Category on a Server, Zip it, Download it.__
 
-<h2>Usage</h2>
+## Usage
+```python
+pip install -r requirements.txt
+```
+
 Edit configuration in config file, run script.py
