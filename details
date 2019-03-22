@@ -1,0 +1,15 @@
+IMAGE FORMAT
+class = wallpapers__image
+src =      https://images.wallpaperscraft.com/image/floe_ice_snow_137418_300x168.jpg
+download = https://images.wallpaperscraft.com/image/floe_ice_snow_137418_1920x1080.jpg
+
+
+PAGE FORMAT
+First Page = https://wallpaperscraft.com/catalog/macro
+First Page = https://wallpaperscraft.com/catalog/macro/page1
+500th Page = https://wallpaperscraft.com/catalog/macro/page500
+
+Lastpage = https://wallpaperscraft.com/catalog/macro/page500
+
+To get Lastpage 3rd a.pager__link on firstpage, href gives the link
+
