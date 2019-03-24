@@ -29,7 +29,7 @@ def download(link,foldername):
   with open(foldername+"/"+name,'wb') as f: 
     f.write(r.content)
   downloaded_files+=1
-  sys.stdout.write("\r Downloading [" + "#"*int(((downloaded_files/total_files)*50)) + " "*int((((total_files-downloaded_files)/total_files)*50)) + "] " + str(downloaded_files) + "/" + str(total_files) + " Files.")
+  sys.stdout.write("\r Downloading [" + "#"*int(((downloaded_files/total_files)*50)) + "."*int((((total_files-downloaded_files)/total_files)*50)) + "] " + str(downloaded_files) + "/" + str(total_files) + " Files.")
   sys.stdout.flush()
   return 1
 
