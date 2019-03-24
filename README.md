@@ -8,3 +8,6 @@ pip install -r requirements.txt
 ```
 
 Edit configuration in config file, run script.py
+
+# Demo
+  https://youtu.be/oM7sml_0Ugw
